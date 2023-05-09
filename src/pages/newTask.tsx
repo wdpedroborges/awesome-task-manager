@@ -2,7 +2,7 @@ import { Alert, Button, Label, Select, TextInput } from "flowbite-react"
 import router from "next/router"
 import { useEffect, useState } from "react"
 import { useMutation } from "react-query"
-import { setIsLoggedIn, setUsername, setEmail } from './redux/user'
+import { setIsLoggedIn, setUsername, setEmail } from '../../redux/user'
 import { useDispatch } from 'react-redux'
 
 export default function NewTask() {

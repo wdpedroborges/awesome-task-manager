@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import { useEffect, useState } from "react"
 import { Alert, Badge, Button, ListGroup, Modal } from "flowbite-react"
 import React from "react"
-import { setIsLoggedIn, setUsername, setEmail } from './redux/user'
+import { setIsLoggedIn, setUsername, setEmail } from '../../redux/user'
 import { useDispatch } from 'react-redux'
 
 export default function MyTasks() {

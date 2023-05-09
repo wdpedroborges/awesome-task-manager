@@ -1,9 +1,9 @@
 import { Avatar, Dropdown, Navbar } from "flowbite-react"
 import { useSelector } from 'react-redux'
-import { RootState } from '../redux/store'
+import { RootState } from '../../../redux/store'
 import Link from "next/link"
 
-export function Menu() {
+export default function Menu() {
     const isLoggedIn = useSelector((state: RootState) => state.user.isLoggedIn)
     const username = useSelector((state: RootState) => state.user.username)
     const email = useSelector((state: RootState) => state.user.email)

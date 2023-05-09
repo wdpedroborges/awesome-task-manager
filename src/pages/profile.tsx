@@ -1,7 +1,7 @@
 import { useQuery } from "react-query"
 import { useRouter } from 'next/router'
 import { useEffect } from "react"
-import { setIsLoggedIn, setUsername, setEmail } from './redux/user'
+import { setIsLoggedIn, setUsername, setEmail } from '../../redux/user'
 import { useDispatch } from 'react-redux'
 import React from 'react';
 import { Chart as ChartJS, CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend} from 'chart.js';

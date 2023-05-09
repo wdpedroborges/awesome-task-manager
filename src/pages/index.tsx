@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { setIsLoggedIn, setUsername, setEmail } from './redux/user'
+import { setIsLoggedIn, setUsername, setEmail } from '../../redux/user'
 import { useDispatch } from 'react-redux'
 import Hero from './components/Hero';
 

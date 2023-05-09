@@ -2,7 +2,7 @@ import { useMutation, useQuery } from "react-query"
 import { useRouter } from 'next/router'
 import { useEffect, useMemo, useState } from "react"
 import { Alert, Badge, ListGroup, Tabs } from "flowbite-react"
-import { setIsLoggedIn, setUsername, setEmail } from './redux/user'
+import { setIsLoggedIn, setUsername, setEmail } from '../../redux/user'
 import { useDispatch } from 'react-redux'
 
 const alreadyInArray = (array: any[], element: any) => {

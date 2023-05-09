@@ -1,6 +1,6 @@
 import { Footer } from "flowbite-react"
 
-export function SimpleFooter() {
+export default function SimpleFooter() {
     return (
         <>
             <Footer container={true}>

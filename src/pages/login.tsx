@@ -3,7 +3,7 @@ import { useMutation } from "react-query"
 import { useRouter } from 'next/router'
 import { Alert, Button, Checkbox, Label, TextInput } from "flowbite-react"
 import Link from "next/link"
-import { setIsLoggedIn, setUsername, setEmail } from './redux/user'
+import { setIsLoggedIn, setUsername, setEmail } from '../../redux/user'
 import { useDispatch } from 'react-redux'
 
 export default function Login() {
